@@ -4,6 +4,12 @@ public class Main {
         Quotation.setQuote("This is a new quote!");
         Quotation.display();
 
+        Persona persona = new Persona("Juan");
+        persona.decirNombre();
+        persona.hablar();
+        persona.dormir();
+
+        
 
     }
 }
