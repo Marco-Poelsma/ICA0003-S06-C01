@@ -9,7 +9,7 @@ public class Main {
         persona.hablar();
         persona.dormir();
 
-        
-
+        TShirt tshirt = new TShirt(223388, "Camiseta manga corta mujer Perkins", 'M', 19.90, 100);
+        tshirt.displayInformation();
     }
 }
