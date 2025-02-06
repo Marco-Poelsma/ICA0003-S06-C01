@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class Main {
+    public static Scanner scan = new Scanner(System.in);
     public static void main(String[] args) {
         //Ej 1
         Quotation.display();
@@ -17,7 +18,6 @@ public class Main {
         tshirt.displayInformation();
         
         //Ej 4
-        Scanner scan = new Scanner(System.in);
         Coche coche = new Coche();
         Coche.menu();
         byte opcion = scan.nextByte();
@@ -61,6 +61,7 @@ public class Main {
         reversePalindrome = sb.reverse().toString();
         System.out.println(reversePalindrome);
 
-
+        //Ej 6
+        Calculadora.main();
     }
 }
