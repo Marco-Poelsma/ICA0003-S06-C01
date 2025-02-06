@@ -63,5 +63,8 @@ public class Main {
 
         //Ej 6
         Calculadora.main();
+
+       //Ej 7
+        LeerSecuencia.leerImprimirNumeros(); 
     }
 }
