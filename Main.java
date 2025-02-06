@@ -39,6 +39,7 @@ public class Main {
         }
 
         //Ej 5
+        //Implementación original, sin StringBuilder
         String palindrome = "Dot saw I was Tod";
         int len = palindrome.length();
         char[] tempCharArray = new char[len];
@@ -55,8 +56,11 @@ public class Main {
         String reversePalindrome = new String(charArray);
         System.out.println(reversePalindrome);
 
+        //Implementación con StringBuilder. Más corta y eficiente
         StringBuilder sb = new StringBuilder(palindrome);
         reversePalindrome = sb.reverse().toString();
         System.out.println(reversePalindrome);
+
+
     }
 }
