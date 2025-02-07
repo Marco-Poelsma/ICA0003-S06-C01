@@ -66,5 +66,8 @@ public class Main {
 
        //Ej 7
         LeerSecuencia.leerImprimirNumeros(); 
+
+        //Ej 8
+        ContactManager.main();
     }
 }
